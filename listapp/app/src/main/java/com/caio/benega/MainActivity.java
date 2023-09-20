@@ -25,6 +25,6 @@ public class MainActivity extends AppCompatActivity {
         listinhabagual.add(new ItemChurras(  5, "cigarro", R.drawable.malboro ));
         ItemChurraAdapta ad = new ItemChurraAdapta(
                 this, R.layout.carvao, listinhabagual);
-        lstv.setAdapter();
+        lstv.setAdapter(ad);
     }
 }
