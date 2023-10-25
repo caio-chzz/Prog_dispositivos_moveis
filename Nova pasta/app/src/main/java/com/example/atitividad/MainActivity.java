@@ -53,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
         att();
     }
     private void att(){
-        Cursor c = cleide.rawQuery("SELECT * FROM users", null);
+        Cursor c = cleide.rawQuery("SELECT * FROM tasks", null);
+
         c.moveToFirst();
         ArrayList<String> chek = new ArrayList<>();
 
